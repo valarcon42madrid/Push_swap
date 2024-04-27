@@ -26,7 +26,7 @@ static t_list	*ft_lstnew_2(void *content)
 	nw = (t_list *)malloc(sizeof(t_list));
 	if (!nw)
 	{
-		ft_putstr_fd("ERROR_IN_FT_LSTNEW_2\n", 1);
+		ft_putstr_fd("ERROR_IN_FT_LSTNEW_2\n", 2);
 		return (NULL);
 	}
 	nw->content = content;
@@ -105,9 +105,9 @@ size_t elem_size, void *del, t_memory type)
 	{
 		new_mem = ft_calloc_2(elem_cnt, elem_size);
 		if (!new_mem)
-			ft_putstr_fd("ERROR_IN_FT_MEMORY_0\n", 1);
+			ft_putstr_fd("ERROR_IN_FT_MEMORY_0\n", 2);
 		else if (!(ft_lstadd_front(&head, ft_lstnew_2(new_mem))))
-			ft_putstr_fd("ERROR_IN_FT_MEMORY_1\n", 1);
+			ft_putstr_fd("ERROR_IN_FT_MEMORY_1\n", 2);
 		return (new_mem);
 	}
 	if (type == pop)

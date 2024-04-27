@@ -19,7 +19,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 	if (!(lst))
 	{
-		ft_putstr_fd("ERROR_IN_FT_LSTCLEAR\n", 1);
+		ft_putstr_fd("ERROR_IN_FT_LSTCLEAR\n", 2);
 		return ;
 	}
 	temp = *lst;

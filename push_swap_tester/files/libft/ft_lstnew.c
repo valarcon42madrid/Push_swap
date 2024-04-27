@@ -19,7 +19,7 @@ t_list	*ft_lstnew(void *content)
 	nw = (t_list *)ft_malloc(1, sizeof(t_list));
 	if (!nw)
 	{
-		ft_putstr_fd("ERROR_IN_FT_LSTNEW\n", 1);
+		ft_putstr_fd("ERROR_IN_FT_LSTNEW\n", 2);
 		return (NULL);
 	}
 	nw->content = content;

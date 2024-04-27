@@ -27,7 +27,7 @@ void	ft_lstdelone(t_list **head, t_list *lst, void (*del)(void *))
 			temp = temp->next;
 		if (!temp)
 		{
-			ft_putstr_fd("ERROR_IN_FT_LSTDELONE\n", 1);
+			ft_putstr_fd("ERROR_IN_FT_LSTDELONE\n", 2);
 			return ;
 		}
 		temp->next = lst->next;

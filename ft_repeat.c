@@ -43,7 +43,7 @@ int	ft_err(int e, int *b)
 	{
 		if (*b == 0)
 		{
-			write(1, "Error\n", 6);
+			write(2, "Error\n", 6);
 			*b = 1;
 		}
 		return (0);
