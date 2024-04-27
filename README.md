@@ -31,4 +31,4 @@ rrb	       :     reverse rotate b	           ->     shifts all elements of stack
 rrr	        :    reverse rotate a + reverse rotate b ->	both rra and rrb
 
         * It's added a tester from "yfu@student.42lyon.fr" that allows you to see the movements by "cd push_swap_tester" + "bash debug.sh 9 4 8 7".
-        It could fail at some of the basic_test.sh due the ausence of a 'void check_leaks();', but it could be adapted to demonstrate the success at all requirements and, most important, the rest of the tests work perfectly.
+        It could fail at some of the basic_test.sh due the ausence of a 'leaks();' command at MacOS, but it could be adapted to demonstrate the success at all requirements and, most important, the rest of the tests work perfectly.
