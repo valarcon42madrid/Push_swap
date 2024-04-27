@@ -6,7 +6,7 @@
 
   For the following instructions, if the instruction is not possible, the part of it that can't be executed won't.
 
-Code	        Instruction	                        Action
+Code	   :     Instruction	            ->            Action
 
 sa	      :      swap a	                ->            swaps the 2 top elements of stack a
 
