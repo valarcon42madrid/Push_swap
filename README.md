@@ -1,4 +1,4 @@
-    ORDERING ALGORITHM FOR TWO PILES:
+                                        ORDERING ALGORITHM FOR TWO PILES:
 
 - Use "make" and then "./push_swap '3 4 1 6 8 111' to recive the clues to order the given pile by using the support pile.
 
